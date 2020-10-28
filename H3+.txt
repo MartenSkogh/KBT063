@@ -1,0 +1,14 @@
+COORDINATES:
+-1 0 0
+1 0 0
+0 1 0
+===
+
+EXPONENTS:
+0.233136
+1.309757
+===
+
+ELECTRONS:
+2
+===
