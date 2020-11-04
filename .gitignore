@@ -1,0 +1,8 @@
+*.engrad
+*.gbw
+*.opt
+*.out
+*.prop
+*.xyz
+*_property.txt
+.vscode
