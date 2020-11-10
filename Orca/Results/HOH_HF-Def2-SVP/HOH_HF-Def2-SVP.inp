@@ -1,0 +1,8 @@
+# Geometry optimization HOH
+! HF opt Def2-SVP
+
+* int 0 1
+O 0 0 0 0 0 0
+H 1 0 0 1 0 0
+H 1 2 0 1 120 0
+*

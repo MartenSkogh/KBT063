@@ -1,0 +1,6 @@
+# Geometry optimization H
+! B3LYP Grid4 SP Def2-SVP
+
+* int 0 2
+H 0 0 0 0 0 0
+*

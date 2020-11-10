@@ -1,9 +1,0 @@
-#Geometry optimization NH2F
-! HF opt def2-SVP
-
-*  int 0 1 
-N 0 0 0  0 0     0 
-H 1 0 0  1 0     0 
-H 1 2 0  1 105   0 
-F 1 2 3  1.4 105 120
-*
