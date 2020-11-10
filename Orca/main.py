@@ -25,33 +25,6 @@ from subprocess import Popen, PIPE
 import itertools
 
 
-def make_orca_input(mol, method_basis, prefix='', suffix='', overwrite=False):
-    print("Making input file...")
-    filename = f'{prefix}{mol}_{method_basis}{suffix}.inp'.replace('/','-')
-    leading_comment = f'# Geometry optimization {mol}'
-    method, basis = method_basis.split('/')
-    method_string = f'! {method} opt {basis}'
-
-    structure_string = f'! xyzfile {charge} {multiplicity} {mol}.xyz'
-    
-    if os.path.exists(filename) and not overwrite:
-        print(f'Input file {filename} already exists, to overwrite set "overwrite=True"')
-        return filename
-    with open(filename, 'w') as input_file:
-        # Write all the lines that we want to write
-        print(leading_comment)
-        print(method_string)
-        print()
-        print(structure_string)
-
-        input_file.write(leading_comment + '\n')
-        input_file.write(method_string + '\n')
-        input_file.write('\n')
-        input_file.write(structure_string)
-    
-    return filename
-
-
 def make_calculation_folder(mol, method, prefix='', suffix=''):
     folder_name = f'{prefix}{mol}_{method}{suffix}'.replace('/','-')
     if os.path.exists(folder_name):
