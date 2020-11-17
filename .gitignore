@@ -7,6 +7,8 @@
 *.ges
 *_property.txt
 *.bib
+*.hess
+*.trj
 
 .vscode
 
