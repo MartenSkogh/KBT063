@@ -9,8 +9,8 @@
 *.bib
 *.hess
 *.trj
+*.slp
 
 .vscode
 
 **/.ipynb_checkpoints/**
-Orca/Results/F_B3LYP-Def2-SVP/F_B3LYP-Def2-SVP.ges
