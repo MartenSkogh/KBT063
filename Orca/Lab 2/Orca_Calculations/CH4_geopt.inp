@@ -1,0 +1,13 @@
+# avogadro generated ORCA input file 
+# Basic Mode
+# 
+! Grid4 B3LYP opt def2-SVP freq 
+
+* xyz 0 1
+   C       -5.42875       11.83673        0.64250
+   H       -4.35875       11.83673        0.64250
+   H       -5.78542       12.48699       -0.12877
+   H       -5.78542       12.17953        1.59127
+   H       -5.78542       10.84366        0.46499
+*
+

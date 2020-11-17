@@ -1,0 +1,12 @@
+# avogadro generated ORCA input file 
+# Basic Mode
+# 
+
+! Grid4 B3LYP ROKS def2-SVP SP
+%output
+print[P_basis] 2
+print[P_mos] 1
+end
+
+* xyzfile 0 3 O2_S=2_geoopt.xyz
+

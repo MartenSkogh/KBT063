@@ -40,7 +40,7 @@ def has_oh_bond(mol_str):
 
 
 molecules = ['H', 'HOH', 'HO', 'CH3OH', 'CH3O', 'CH2CHOH', 'CH2CHO', 'N2', 'N', 'F2', 'F']
-methods = ['HF/Def2-SVP', 'UHF/Def2-SVP', 'B3LYP/Def2-SVP']
+methods = ['HF/Def2-SVP', 'B3LYP/Def2-SVP']
 
 n_calcs = len(molecules) * len(methods)
 calculations = itertools.product(molecules, methods)
