@@ -6,6 +6,7 @@
 *.xyz
 *.ges
 *_property.txt
+*.bib
 
 .vscode
 
