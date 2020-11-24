@@ -11,7 +11,12 @@
 *.trj
 *.slp
 *.tmp
+*.0
+*.allxyz
+*.relaxscanact.dat
+*.relaxscanscf.dat
 
 .vscode
 
 **/.ipynb_checkpoints/**
+!/**/Orca_Calculations/Initial_Geometries/*.xyz
