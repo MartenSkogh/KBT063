@@ -20,3 +20,5 @@
 
 **/.ipynb_checkpoints/**
 !/**/Orca_Calculations/Initial_Geometries/*.xyz
+
+workspace.code-workspace
