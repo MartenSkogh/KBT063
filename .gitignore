@@ -15,6 +15,7 @@
 *.allxyz
 *.relaxscanact.dat
 *.relaxscanscf.dat
+*.cpcm
 
 .vscode
 
