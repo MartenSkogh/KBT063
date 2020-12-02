@@ -1,3 +1,3 @@
 ! Grid4 B3LYP def2-TZVPD SP CPCM(DMF)
 
-* xyzfile -1 1 Step2\Cl-_CH3Br.xyz
+* xyzfile -1 1 Step2/CH3Cl_Br-.xyz

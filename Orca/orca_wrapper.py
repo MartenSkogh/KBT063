@@ -30,7 +30,7 @@ def run_orca(i_filename, o_filename=''):
 
 default_search_terms = {'TS': 'Final entropy term',
                         'G': 'Final Gibbs free energy',
-                        'G-E(el)': 'Final Gibbs free energy',
+                        'G-E(el)': 'G-E(el)',
                         'H': 'Total Enthalpy',
                         'E_therm': 'Total thermal energy',
                         'E_sp': 'FINAL SINGLE POINT ENERGY'}
