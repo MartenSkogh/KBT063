@@ -1,0 +1,7 @@
+# Geometry optimization F2
+! B3LYP Grid4 opt Def2-SVP
+
+* int 0 1
+F 0 0 0 0 0 0
+F 1 0 0 1 0 0
+*
